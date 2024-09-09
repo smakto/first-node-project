@@ -1,0 +1,179 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f7f7f7;
+  color: #4d4d4d;
+}
+
+body,
+header,
+main {
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+header div {
+  margin: 15px 100px;
+  font-weight: bold;
+}
+
+main {
+  padding-top: 50px;
+  width: 80%;
+}
+
+main > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+main > div > div {
+  width: 70%;
+  font-size: smaller;
+}
+
+main > div button {
+  align-self: center;
+  border: none;
+  border-radius: 5px;
+  background-color: #7b87ed;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+}
+
+div.usersWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section p {
+  font-weight: bold;
+}
+
+div.users {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.users > div {
+  background-color: white;
+  margin: 15px;
+  width: 30%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+div.users > div:hover {
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+div.users > div > h3,
+div.users > div > p {
+  margin: 15px;
+}
+
+/* form page */
+/* form page */
+/* form page */
+/* form page */
+/* form page */
+
+div.userFormField {
+  width: 100%;
+  background-color: white;
+  padding: 25px;
+}
+
+div.formWrap {
+  width: 100%;
+}
+
+div.formWrap label {
+  color: black;
+  font-weight: bold;
+}
+
+div.formWrap input:not(input[type="submit"]) {
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 2px;
+  width: 100%;
+  margin-top: 5px;
+}
+
+select {
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 2px;
+  width: 30%;
+  margin-top: 5px;
+}
+
+label {
+  margin-bottom: 15px;
+}
+
+div.formWrap form > div:last-child {
+  text-align: center;
+}
+
+div.formWrap form > div:nth-child(4),
+div.formWrap form > div:last-child {
+  width: 100%;
+}
+
+div.formWrap form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+div.formWrap form div {
+  width: 46%;
+  padding: 15px;
+}
+
+.cancelButtonUser {
+  font-weight: bold;
+  border: none;
+  background: none;
+  color: #4d4d4d;
+}
+
+.cancelButtonUser:hover {
+  color: #d53c3c;
+}
+
+.submitNewUser {
+  border: none;
+  border-radius: 5px;
+  background-color: #7b87ed;
+  color: white;
+  padding: 8px;
+  font-weight: bold;
+  margin-left: 50px;
+}
+
+.submitNewUser:hover {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 5px;
+  font-size: smaller;
+  background-color: white;
+}

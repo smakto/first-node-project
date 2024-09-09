@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Memberships</title>
+  </head>
+  <body>
+    <header>
+      <div style="color: #7b87ed">Memberships</div>
+      <a href="./indexUsers.html" style="text-decoration: none">
+        <div style="color: #6d6d6d">Users</div>
+      </a>
+    </header>
+    <main>
+      <div>
+        <div>
+          <h2>Create membership</h2>
+        </div>
+      </div>
+      <div class="membFormField">
+        <div class="formWrap">
+          <form>
+            <div>
+              <label for="membNAme">Name</label>
+              <input type="text" name="membName" id="membName" />
+            </div>
+            <div>
+              <label for="membPrice">Price</label>
+              <input type="number" name="membPrice" id="membPrice" />
+            </div>
+            <div>
+              <label for="membDescription">Description</label>
+              <textarea
+                name="membDescription"
+                id="membDescription"
+                rows="6"
+              ></textarea>
+            </div>
+            <div>
+              <a href="./indexMemb.html">
+                <button type="button" class="cancelButtonMemb">
+                  Cancel
+                </button></a
+              ><input
+                type="submit"
+                class="submitNewMemb"
+                value="New Membership"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>Copyright © 2024 Membership Manager</footer>
+    <script src="./indexMembAdd.js"></script>
+  </body>
+</html>

@@ -1,0 +1,169 @@
+/* main page */
+/* main page */
+/* main page */
+/* main page */
+/* main page */
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f7f7f7;
+  color: #4d4d4d;
+  position: relative;
+}
+
+body,
+header,
+main {
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+header div {
+  margin: 15px 100px;
+  font-weight: bold;
+}
+
+main {
+  padding-top: 50px;
+  width: 80%;
+}
+
+main > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+main > div button {
+  align-self: center;
+  border: none;
+  border-radius: 5px;
+  background-color: #7b87ed;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+}
+
+main > div > div {
+  width: 70%;
+  font-size: smaller;
+}
+
+/* rendering blocks */
+
+.renderedMembs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.membershipBlock {
+  width: 30%;
+  margin: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  background-color: white;
+}
+
+.membershipBlock:hover {
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+.membershipBlock p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+.membershipBlock h4 {
+  text-align: center;
+}
+
+.membershipBlock > div {
+  text-align: right;
+  margin-top: 15px;
+  padding: 10px;
+  border-top: 1px solid #dbdbdb;
+}
+
+/* form page */
+/* form page */
+/* form page */
+/* form page */
+/* form page */
+
+div.membFormField {
+  width: 100%;
+  background-color: white;
+}
+
+div.formWrap {
+  width: 60%;
+  margin-left: 5%;
+  padding: 35px;
+}
+
+div.formWrap label {
+  color: black;
+  font-weight: bold;
+}
+
+div.formWrap input:not(input[type="submit"]),
+div.formWrap textarea {
+  width: 60%;
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 2px;
+  margin: 15px;
+}
+
+div.formWrap form div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+div.formWrap form > div:last-child {
+  justify-content: center;
+  margin-left: 200px;
+  margin-top: 25px;
+}
+
+.cancelButtonMemb {
+  background: none;
+  color: #4d4d4d;
+}
+
+.cancelButtonMemb:hover {
+  color: #d53c3c;
+}
+
+.submitNewMemb {
+  border: none;
+  border-radius: 5px;
+  background-color: #7b87ed;
+  color: white;
+  padding: 8px;
+  font-weight: bold;
+  margin-left: 50px;
+}
+
+.submitNewMemb:hover {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 5px;
+  font-size: smaller;
+  background-color: white;
+}
