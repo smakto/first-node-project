@@ -50,7 +50,7 @@ newUserForm.addEventListener("submit", async (event) => {
   } else {
     alert("No can do - email taken.");
   }
-  window.location.href = "./indexUsers.html";
+  window.location.href = "./usersPage.html";
 });
 
 getTakenMails();
